@@ -69,8 +69,6 @@ Run:
 
 - [Node Server](./exercisefiles/node/README.md)
 - [Java Spring Boot](./exercisefiles/springboot/README.md)
-- [Java Quarkus](./exercisefiles/quarkus/README.md)
-- [Python Data Engineer](./exercisefiles/dataengineer/README.md)
 - [Python Data Scientist](./exercisefiles/datascientist/README.md)
 
 ## Challenges instructions
