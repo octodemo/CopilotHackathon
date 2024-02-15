@@ -30,7 +30,7 @@ Remember:
 
 **GitHub Copilot access**
 
-If you still do not have an active Copilot license, a 30 day trial can be requested here: https://github.com/github-copilot/signup.
+This workshop assumes that you already have an active Copilot license. If you don't, please seek help with one of the proctors.
 
 ### Work with GitHub Codespaces
 
