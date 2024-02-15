@@ -34,13 +34,22 @@ Additionally, create a unit test that validates the operation.
 
 From now on, you will have to create the unit tests for every new operation. Wasn't it easy with Copilot? 
 
-### 3. Validate the format of a spanish phone 
+### 3. Validate the format of a mexican phone number
 
-Validate the format of a spanish phone number (+34 prefix, then 9 digits, starting with 6, 7 or 9). The operation should receive a phone number as parameter and return true if the format is correct, false otherwise. 
+Validate the format of a Mexican phone number (+52 prefix, then 10 digits, including area code). The operation should receive a phone number as parameter and return true if the format is correct, false otherwise. 
 
-### 4. Validate the format of a spanish DNI
+### 4. Validate the format of a Mexican National ID 
 
-Validate the format of a spanish DNI (8 digits and 1 letter). The operation should receive a DNI as parameter and return true if the format is correct, false otherwise. 
+Validate the format of a Mexican National ID:
+- 4 letters from person's legal name: first letter from paternal surname + first internal vowel from paternal surname + first letter from maternal surname + first internal vowel from maternal surname
+- 6 digits: person's bithdate in YYMMDD
+- 1 letter: H for male and F for female
+- 2 letters: state abbreviation
+- 3 letters: first internal consonant from paternal surname + first internal consonant from maternal surname + first internal consonant from given name
+- 1 digit between 0 and 9 or 1 letter from A to Z.
+- 1 character for checksum.
+
+The operation should receive a DNI as parameter and return true if the format is correct, false otherwise. You can build this function as complex or as simply as you would prefer!!
 
 ### 5. From color name to hexadecimal code
 
