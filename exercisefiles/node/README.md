@@ -31,14 +31,8 @@ server is listening on port 3000
 - In the Test.js file add the methods to test the functionality
 - Run the tests to verify that all is working 
 - Open the dockerfile file, and fill it, in order to create a docker container with a node image that can run the web server
-- Create command to run docker in port 4000
-- Test that the application is working in port 4000
-- In the **nodeserver.js** file, you can type a new line like //run a curl command to test the server
-
-So we can see how Copilot based on the current file produces a curl command, to be executed in command line
-- Also you can be more specific like: //run a curl command to test the daysBetweenDates method
-
-So it generates a test for a specific method 
+- Create command to run podman in port 4000 using Copilot CLI.
+- If you have podman installed, test that the application is working in port 4000. If not, Congrats!!! You have finished the exercise.
 
 ### Exercise 2: Building new functionlities
 
@@ -49,7 +43,6 @@ The requests that the server must attend are the following:
 - **/Get** : 
 
   * Return a hello world message
-
 
 - **/DaysBetweenDates**: 
 
@@ -149,7 +142,7 @@ The requests that the server must attend are the following:
 
 ### Excercise 2: Document the code
 
-Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. In the chat, ask Copilot to document the `nodeserver.js` file. 
+Documenting code is always a boring and painful task. However, we can use Copilot to document it for us. In the chat, ask Copilot to document the `nodeserver.js` file. Or highlight your code and right click it to see pre-configured Copilot commands.
 
 ### Exercise 4: Building tests
 
