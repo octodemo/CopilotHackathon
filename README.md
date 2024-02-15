@@ -56,22 +56,18 @@ Run:
  npm install axios
 ```
 
-**For .NET**
-
-[Install .Net](https://dotnet.microsoft.com/download)
-
 **For Java**
 
 - [Install Java](https://learn.microsoft.com/en-us/java/openjdk/install)
 - [Install Maven](https://maven.apache.org/install.html)
 
 **For Python**
+
 - [Install Python](https://www.python.org/downloads/)
 
 ## Labs instructions
 
 - [Node Server](./exercisefiles/node/README.md)
-- [.NET Web API](./exercisefiles/dotnet/README.md)
 - [Java Spring Boot](./exercisefiles/springboot/README.md)
 - [Java Quarkus](./exercisefiles/quarkus/README.md)
 - [Python Data Engineer](./exercisefiles/dataengineer/README.md)
