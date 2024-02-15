@@ -44,10 +44,6 @@ To start programming just start a new codespace and you are ready to go, don't n
 
 https://code.visualstudio.com/
 
-**Install Docker**
-
-https://docs.docker.com/engine/install/
-
 **For Nodejs**
 
 - [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
