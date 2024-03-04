@@ -41,7 +41,7 @@ Validate the format of a Mexican phone number (+52 prefix, then 10 digits, inclu
 ### 4. Validate the format of a Mexican National ID 
 
 Validate the format of a Mexican National ID:
-- 4 letters from person's legal name: first letter from paternal surname + first internal vowel from paternal surname + first letter from maternal surname + first internal vowel from maternal surname
+- 4 letters from person's legal name: first letter from paternal surname + first internal vowel from paternal surname + first letter from maternal surname + first letter of given name
 - 6 digits: person's bithdate in YYMMDD
 - 1 letter: H for male and F for female
 - 2 letters: state abbreviation
