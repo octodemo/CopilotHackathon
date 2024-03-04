@@ -62,10 +62,22 @@ The requests that the server must attend are the following:
   > **_NOTE:_** Use above information inside the Copilot inline feature in the `nodeserver.js` file. Press enter and wait for Copilot to suggest you the code.
 
 
-- **/ValidateSpanishDNI**:
+- **/ValidateMexicanDNI**:
+
+
+   * Validate the format of a Mexican National ID
+Validate the format of a Mexican National ID:
+
+4 letters from person's legal name: first letter from paternal surname + first internal vowel from paternal surname + first letter from maternal surname + first letter of given name
+6 digits: person's bithdate in YYMMDD
+1 letter: H for male and F for female
+2 letters: state abbreviation
+3 letters: first internal consonant from paternal surname + first internal consonant from maternal surname + first internal consonant from given name
+1 digit between 0 and 9 or 1 letter from A to Z.
+1 character for checksum.
 
   * Receive by querystring a parameter called dni
-  * calculate DNI letter
+  * calculate DNI
   * if DNI is valid return "valid"
   * if DNI is not valid return "invalid"
 
